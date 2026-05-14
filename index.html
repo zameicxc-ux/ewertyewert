@@ -37,22 +37,9 @@
       z-index: 100;
       border-bottom: 1px solid rgba(29,158,117,0.3);
     }
-    .nav-logo { display: flex; align-items: center; gap: 12px; }
-    .nav-logo img {
-      width: 60px; height: 60px;
-      border-radius: 8px;
-      object-fit: contain;
-      background: #1a2e1a;
-    }
-    .nav-logo-placeholder {
-      width: 60px; height: 60px;
-      border-radius: 8px;
-      background: #1a2e1a;
-      border: 1px solid #1D9E75;
-      display: flex; align-items: center; justify-content: center;
-      color: #5DCAA5; font-size: 11px; font-family: sans-serif;
-      text-align: center; line-height: 1.2; padding: 4px;
-    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo-text { font-family: Georgia, serif; font-size: 18px; font-weight: 700; color: #fff; letter-spacing: 1px; }
+    .nav-logo-text span { color: #5DCAA5; }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
       color: rgba(255,255,255,0.85);
@@ -396,7 +383,7 @@
 <!-- NAV -->
 <nav>
   <div class="nav-logo">
-    <img src="logo ewert&ewert.png" alt="Ewert & Ewert" style="width:60px; height:60px; border-radius:8px; object-fit:contain;" />
+    <div class="nav-logo-text">EWERT <span>&amp;</span> EWERT</div>
   </div>
   <ul class="nav-links" id="navLinks">
     <li><a href="#inicio">Inicio</a></li>
